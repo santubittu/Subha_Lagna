@@ -9,12 +9,12 @@ export function Gallery() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null)
 
   const galleryImages = [
-    "https://image.wedmegood.com/resized/1000X/uploads/member/2897930/1703061636_DSC_5250.jpg",
-    "https://image.wedmegood.com/resized/1000X/uploads/member/2897930/1659331132_DSC_8104.jpg",
-    "https://image.wedmegood.com/resized/1000X/uploads/member/2897930/1703061648_DSC_5326.jpg",
-    "https://image.wedmegood.com/resized/1000X/uploads/member/2897930/1703061629_DSC_5177.jpg",
-    "https://image.wedmegood.com/resized/1000X/uploads/member/2897930/1647495870_275743695_519756359672098_6221822314462299576_n.jpg",
-    "https://image.wedmegood.com/resized/1000X/uploads/member/2897930/1703061641_DSC_5055.jpg",
+    "https://image.wedmegood.com/resized/1000X/uploads/member/2897930/1703061636_DSC_5250.jpg"
+    "https://image.wedmegood.com/resized/1000X/uploads/member/2897930/1659331132_DSC_8104.jpg"
+    "https://image.wedmegood.com/resized/1000X/uploads/member/2897930/1703061648_DSC_5326.jpg"
+    "https://image.wedmegood.com/resized/1000X/uploads/member/2897930/1703061629_DSC_5177.jpg"
+    "https://image.wedmegood.com/resized/1000X/uploads/member/2897930/1647495870_275743695_519756359672098_6221822314462299576_n.jpg"
+    "https://image.wedmegood.com/resized/1000X/uploads/member/2897930/1703061641_DSC_5055.jpg"
   ]
 
   return (
